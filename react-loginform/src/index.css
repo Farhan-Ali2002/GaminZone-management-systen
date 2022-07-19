@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+input,button{
+  /* appearance: none; */
+  background: none;
+  border: none;
+  outline: none;
+}
+.App{
+   /* height : 10vh;  */
+   justify-content: center;
+   display: flex; 
+   align-items: center;
+ /*
+  background-color: rgb(53, 8, 8);  */ 
+
+} 
+#form11{
+  display: grid;
+  place-items: center;
+ 
+}
+#form11:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: 1;
+  background-image: url(1.jpg);
+  background-size:cover ;
+ 
+}
+form .form-inner,form .form-inner1{
+  position: relative;
+  display: block;
+  background-color: transparent;
+  padding: 50px;
+  z-index: 2;
+  
+}
+/* form .form-inner h2,form .form-inner1 h2{
+  color: rgb(136, 117, 7);
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  border-style: dotted;
+  background-color: rgb(167, 167, 175);
+} */
+form .form-inner .form-group,form .form-inner1 .form-group1{
+  display: block;
+  width: 200px;
+
+  margin-bottom: 5px;
+}
+.form-inner .form-group label, .form-inner1 .form-group1 label{
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 1000;
+  margin-bottom: 5px;
+  transition: 0.4s;
+
+}
+.form-inner .form-group :focus-within label, .form-inner1 .form-group1 :focus-within label{
+  color: red;
+}
+.form-inner .form-group  input,.form-inner1 .form-group1  input{
+  display: block;
+  width : 100%;
+  
+  padding :10px, 15px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  transition: 0.4s;
+  height: 30px;
+  border-style: ridge;
+  }
+.form-inner .form-group input:focus, .form-inner1 .form-group1 input:focus {
+  box-shadow: 0px,0px,3px rgba(0,0,0,0.2);
+}
+.form-inner  button[type = "submit"],.form-inner1  button[type = "submit"]{
+  display: inline-block;
+  padding: 10px,15px;
+  border-radius: 8px;
+  /* background-image: linear-gradient(to right, yellow 50%, yellow 50%, red); */
+  background-size: 200%;
+  font-size: 10px;
+  background-position: 0%;
+  transition: 0.4s;
+  color: rgb(252, 254, 255);
+  font-weight: 700;
+  cursor: pointer;
+  border-style:ridge ;
+  border-color: black;
+  background-color: black;
+
+}
+.form-inner  button[type = "submit"]:hover,.form-inner1  button[type = "submit"]:hover{
+background-position: 100%;
+color: rgb(136, 124, 124);
+
+} 
+
+.centerr{
+  
+  position: relative;
+}
+ul li a{
+  color: rgb(255, 255, 255);
+  
+}
+/* #one{
+  position: absolute;
+  left: 2%;
+}
+#two{
+  position: absolute;
+  right: 2%;
+} */
+
+ ul li{
+display: inline-block;
+padding: 2px;
+
+
+}
+
+  .radiob{
+    display: flex;
+    /* justify-content: ; */
+    padding: auto;
+    gap: 10px
+    
+  }
+  .registration2{
+    display: grid ;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+
+
+    background-image: url(3.gif);
+    background-size: cover;
+  }
+  
+

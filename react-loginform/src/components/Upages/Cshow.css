@@ -1,0 +1,82 @@
+ .parent {
+   
+   
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  
+  .main {
+    width: 40%;
+    height: 350px;
+    background-color: transparent;
+    
+    border-radius: 5px;
+    
+  }
+  
+  .heading {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    color: rgb(255, 255, 255);
+    border-radius: 5px 5px 0 0;
+    margin: 0px;
+  }
+  
+  /* @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap'); */
+  
+  .timer {
+    /* font-family: 'Teko', sans-serif; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 30px 0px;
+  }
+  
+  .hour,
+  .min,
+  .sec,
+  .msec {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+  }
+  
+  .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  
+
+  @media(max-width: 800px) {
+    .main {
+      width: 60%;
+    }
+  }
+  
+  @media(max-width: 630px) {
+    .main {
+      width: 70%;
+    }
+  }
+  
+  @media(max-width: 505px) {
+    .main {
+      width: 90%;
+    }
+  }

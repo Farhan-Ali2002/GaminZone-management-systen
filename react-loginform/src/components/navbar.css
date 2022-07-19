@@ -1,0 +1,92 @@
+.hometab{
+    width: 100%;
+    height: 100vh;
+    background-image: url(5.jpg);
+    background-size: cover;
+}
+.activetab{
+    width: 100%;
+    height: 100vh;
+    background-image: url(5.jpg);
+    background-size: cover;
+}
+.pctab{
+    width: 100%;
+    height: 100vh;
+    background-image: url(5.jpg);
+    background-size: cover;
+}
+.activetable{
+    background-color: black;
+  
+    
+   
+}
+#tfont{
+    color: white;
+    border-color:black ;    
+}
+#activebutton{
+    display: inline-block;
+    padding: 10px,15px;
+    border-radius: 8px;
+    /* background-image: linear-gradient(to right, yellow 50%, yellow 50%, red); */
+    background-size: 200%;
+    font-size: 15px;
+    background-position: 0%;
+    transition: 0.4s;
+    color: rgb(252, 254, 255);
+    font-weight: 700;
+    cursor: pointer;
+    border-style:ridge ;
+    border-color: black;
+    background-color: black;
+    
+   
+}
+.form-pc1{
+    color: white    ;
+    display: grid;
+    place-items: center;
+}
+#pcmodel{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    
+}
+#pcpurchasedate{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+#pcbutton{
+    display: grid;
+    padding: 10px,15px;
+    border-radius: 8px;
+    /* background-image: linear-gradient(to right, yellow 50%, yellow 50%, red); */
+    background-size: 200%;
+    font-size: 15px;
+    background-position: 0%;
+    transition: 0.4s;
+    color: rgb(252, 254, 255);
+    font-weight: 700;
+    cursor: pointer;
+    border-style:ridge ;
+    border-color: black;
+    background-color: black;
+    
+   
+}
+.search{
+    color: white;
+}
+.infotab{
+    width: 100%;
+    height: 100vh;
+    background-image: url(5.jpg);
+    background-size: cover;
+}
+.innerinfo{
+    color: white;
+}

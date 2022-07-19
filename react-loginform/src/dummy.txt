@@ -1,0 +1,22 @@
+(user.name !== "")?(
+        <div className='welcome'>
+          <h2>Welcome <span>{user.name}</span></h2>
+          <button onClick={Logout}>Logout</button>
+
+        </div>
+
+      ):
+      (
+        <div>
+      <Loginform Loginn={Login} error = {error}/>
+      <Link to="/SignUp"> Don't have an account? SignUp?</Link>
+      </div>
+      )
+
+      <button onClick={()=>{setShowAddgame(!ShowAddgame)}}>add pc</button>
+{
+(ShowAddgame)?(
+  <AddGames/>
+  ):(
+    <div/>
+  )}
